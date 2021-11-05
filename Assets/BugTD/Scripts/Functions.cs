@@ -18,14 +18,16 @@ public class Functions : MonoBehaviour
     void Update()
     {
         Button = GetComponent<AudioSource>();
+        ButtonStartWaitTime = ButtonWaitTime;
     }
 
     public void StartGame()
     {
         Button.Play();
         ButtonWaitTime -= Time.deltaTime;
-        if (ButtonWaitTime <= 0)
+        if (ButtonStartWaitTime <= 0)
         {
+            ButtonWaitTime = ButtonStartWaitTime;
             SceneManager.LoadScene("Level");
         }
     }
@@ -34,8 +36,7 @@ public class Functions : MonoBehaviour
     {
         Button.Play();
         ButtonWaitTime -= Time.deltaTime;
-        if (ButtonWaitTime <= 0)
-        {
+        if (ButtonWaitTime <= 0) {
             ButtonWaitTime = ButtonStartWaitTime;
             SceneManager.LoadScene("MainMenu");
         }
