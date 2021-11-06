@@ -6,10 +6,15 @@ public class CameraController : MonoBehaviour
 {
 
     public Camera _camera;
+    public float zoomSpeed = 50f;
+    public float zoomPosition;
     public float panSpeed = 20f;
     public float panBorderThickness = 5f;
     public Vector3 cameraPosition;
     public Vector2 panLimit;
+    public float zoomInLimit;
+    public float zoomOutLimit;
+
     
     // Start is called before the first frame update
     void Start()
@@ -23,7 +28,17 @@ public class CameraController : MonoBehaviour
     void Update()
     {
         cameraPosition = transform.position;
-        Debug.Log(Input.GetAxis("Mouse ScrollWheel"));
+        Debug.Log(Input.mouseScrollDelta.y);
+
+        if(Input.mouseScrollDelta.y >=1 )
+        {
+            zoomPosition -= zoomSpeed * Time.deltaTime;
+        }
+
+        if(Input.mouseScrollDelta.y <= -1)
+        {
+            zoomPosition += zoomSpeed * Time.deltaTime;
+        }
 
         //up
         if(Input.mousePosition.y >= Screen.height - panBorderThickness)
@@ -52,7 +67,9 @@ public class CameraController : MonoBehaviour
 
         cameraPosition.x = Mathf.Clamp(cameraPosition.x,-panLimit.x,panLimit.x);
         cameraPosition.y = Mathf.Clamp(cameraPosition.y,-panLimit.y,panLimit.y);
+        zoomPosition = Mathf.Clamp(zoomPosition,zoomInLimit,zoomOutLimit);
         transform.position = cameraPosition;
+        _camera.orthographicSize = zoomPosition;
         
     }
 }

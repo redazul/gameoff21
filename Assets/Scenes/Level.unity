@@ -163,6 +163,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _camera: {fileID: 519420031}
+  zoomSpeed: 200
+  zoomPosition: 0
+  panSpeed: 20
+  panBorderThickness: 10
+  cameraPosition: {x: 0, y: 0, z: 0}
+  panLimit: {x: 3, y: 3}
+  zoomInLimit: 2
+  zoomOutLimit: 8
 --- !u!20 &519420031
 Camera:
   m_ObjectHideFlags: 0
@@ -214,7 +222,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 519420028}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.03, y: -0.28, z: -10}
+  m_LocalPosition: {x: 0, y: 0, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
