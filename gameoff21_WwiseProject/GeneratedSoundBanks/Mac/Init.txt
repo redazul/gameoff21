@@ -1,0 +1,26 @@
+State Group	ID	Name			Wwise Object Path	Notes
+	3991942870	Music			\Default Work Unit\Music	
+
+State	ID	Name	State Group			Notes
+	748895195	None	Music			
+	1291433366	Base	Music			
+	4174463524	Danger	Music			
+
+Audio Bus	ID	Name			Wwise Object Path	Notes
+	445985465	DIA			\Default Work Unit\Master Audio Bus\DIA	
+	712897226	MUS			\Default Work Unit\Master Audio Bus\MUS	
+	1551306167	UI			\Default Work Unit\Master Audio Bus\UI	
+	1802970371	FX			\Default Work Unit\Master Audio Bus\FX	
+	1886858542	AT			\Default Work Unit\Master Audio Bus\AT	
+	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
+
+Auxiliary Bus	ID	Name			Wwise Object Path	Notes
+	348963605	Reverb			\Default Work Unit\Master Audio Bus\Reverb	
+
+Effect plug-ins	ID	Name	Type				Notes
+	48620415	Have_U_Ever_Been_Outside	Wwise RoomVerb			
+
+Audio Devices	ID	Name	Type				Notes
+	2317455096	No_Output	No Output			
+	3859886410	System	System			
+

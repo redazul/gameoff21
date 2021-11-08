@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{DCBE4721-569F-4A08-A4A4-01F188FF7558}" SchemaVersion="103" RootDocumentID="{E001BE94-0DF2-4318-8D2F-68F8B0BFF33F}" ParentDocumentID="{E001BE94-0DF2-4318-8D2F-68F8B0BFF33F}">
+	<AudioObjects>
+		<WorkUnit Name="UI" ID="{DCBE4721-569F-4A08-A4A4-01F188FF7558}" OwnerID="{E001BE94-0DF2-4318-8D2F-68F8B0BFF33F}" PersistMode="Nested">
+			<ChildrenList>
+				<BlendContainer Name="UI_Click" ID="{AF9A1B68-9131-4664-9EDF-8126424A208B}" ShortID="268689229">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>7</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E423A8FF-644E-4C40-A9CB-E7827C63C34D}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="UI" ID="{F3368A9A-755B-4DCA-AB70-9D001F5C1897}" WorkUnitID="{0DA9D181-6D26-4FE8-8F1C-D3ED52A020EF}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="UI_Click -  - Output - Stereo Out" ID="{178AF05B-DA4B-4BA5-BAFF-F163F695BFE5}" ShortID="799648461">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E423A8FF-644E-4C40-A9CB-E7827C63C34D}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0DA9D181-6D26-4FE8-8F1C-D3ED52A020EF}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="UI_Click -  - Output - Stereo Out" ID="{8D6307C7-E36B-40D5-9309-47B1D1AAEC71}">
+									<Language>SFX</Language>
+									<AudioFile>UI_Click -  - Output - Stereo Out.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="712109756"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="UI_Click -  - Output - Stereo Out" ID="{8D6307C7-E36B-40D5-9309-47B1D1AAEC71}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+					<ObjectLists/>
+				</BlendContainer>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>
