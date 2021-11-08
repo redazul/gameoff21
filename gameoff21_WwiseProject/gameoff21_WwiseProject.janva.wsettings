@@ -73,6 +73,7 @@
 				<Property Name="Music Transition List\{E1E19A9C-1918-431F-83DF-286214FB1B61}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Music Transition List\{E68017AB-0238-4859-85F3-B48EEA956453}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Music Transition List\{ED01BD73-3243-44B3-8613-4CF984FB39BB}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="PluginUserAcknowledge\ConvolutionReverb" Type="bool" Value="True"/>
 				<Property Name="ProjectExplorer\FirstVisible_11_1" Type="string" Value="{4C96B38B-3DB4-40C7-91C9-665510E38993}"/>
 				<Property Name="ProjectExplorer\FirstVisible_12_1" Type="string" Value="{23EC2DE3-3ED8-4B82-AC99-92E25F2E4C6B}"/>
 				<Property Name="ProjectExplorer\FirstVisible_1_1" Type="string" Value="{27092F88-225A-1154-6725-C8A34F3D4482}"/>

@@ -4,6 +4,13 @@
 		<WorkUnit Name="SFX" ID="{2138D775-BC3B-4644-B017-93FBAD1A3D4F}" OwnerID="{E001BE94-0DF2-4318-8D2F-68F8B0BFF33F}" PersistMode="Nested">
 			<ChildrenList>
 				<BlendContainer Name="Spend_Coin" ID="{32BA7BC7-6460-465C-B748-B0285B118DE6}" ShortID="107640848">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-1</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<Custom CreatedFrom="{6D1B890C-9826-4384-BF07-C15223E9FB56}">
@@ -52,7 +59,7 @@
 							</Custom>
 						</Reference>
 						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0DA9D181-6D26-4FE8-8F1C-D3ED52A020EF}"/>
+							<ObjectRef Name="FX" ID="{694F914F-BD22-4064-B501-4202563860E4}" WorkUnitID="{0DA9D181-6D26-4FE8-8F1C-D3ED52A020EF}"/>
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
@@ -106,12 +113,19 @@
 					<ObjectLists/>
 				</BlendContainer>
 				<BlendContainer Name="Player_Get_Coins_Multiple" ID="{F2219D3A-0EF3-47A0-B236-22AAB3B20834}" ShortID="995226287">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-6</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E423A8FF-644E-4C40-A9CB-E7827C63C34D}"/>
 						</Reference>
 						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0DA9D181-6D26-4FE8-8F1C-D3ED52A020EF}"/>
+							<ObjectRef Name="FX" ID="{694F914F-BD22-4064-B501-4202563860E4}" WorkUnitID="{0DA9D181-6D26-4FE8-8F1C-D3ED52A020EF}"/>
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
@@ -157,13 +171,18 @@
 							</ModifierList>
 						</Property>
 						<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="2"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>12</Value>
+							</ValueList>
+						</Property>
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E423A8FF-644E-4C40-A9CB-E7827C63C34D}"/>
 						</Reference>
 						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0DA9D181-6D26-4FE8-8F1C-D3ED52A020EF}"/>
+							<ObjectRef Name="FX" ID="{694F914F-BD22-4064-B501-4202563860E4}" WorkUnitID="{0DA9D181-6D26-4FE8-8F1C-D3ED52A020EF}"/>
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
@@ -268,7 +287,10 @@
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E423A8FF-644E-4C40-A9CB-E7827C63C34D}"/>
 						</Reference>
 						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0DA9D181-6D26-4FE8-8F1C-D3ED52A020EF}"/>
+							<ObjectRef Name="FX" ID="{694F914F-BD22-4064-B501-4202563860E4}" WorkUnitID="{0DA9D181-6D26-4FE8-8F1C-D3ED52A020EF}"/>
+						</Reference>
+						<Reference Name="UserAuxSend0">
+							<ObjectRef Name="Reverb" ID="{2B2D6AA4-363F-45BC-A110-47AAFD496962}" WorkUnitID="{0DA9D181-6D26-4FE8-8F1C-D3ED52A020EF}"/>
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
@@ -589,7 +611,7 @@
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E423A8FF-644E-4C40-A9CB-E7827C63C34D}"/>
 						</Reference>
 						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0DA9D181-6D26-4FE8-8F1C-D3ED52A020EF}"/>
+							<ObjectRef Name="FX" ID="{694F914F-BD22-4064-B501-4202563860E4}" WorkUnitID="{0DA9D181-6D26-4FE8-8F1C-D3ED52A020EF}"/>
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
@@ -620,12 +642,19 @@
 					<ObjectLists/>
 				</BlendContainer>
 				<BlendContainer Name="Player_Death" ID="{12691EC9-8E71-496E-8D15-3DB52C751BBD}" ShortID="408565715">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>2</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E423A8FF-644E-4C40-A9CB-E7827C63C34D}"/>
 						</Reference>
 						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0DA9D181-6D26-4FE8-8F1C-D3ED52A020EF}"/>
+							<ObjectRef Name="FX" ID="{694F914F-BD22-4064-B501-4202563860E4}" WorkUnitID="{0DA9D181-6D26-4FE8-8F1C-D3ED52A020EF}"/>
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>

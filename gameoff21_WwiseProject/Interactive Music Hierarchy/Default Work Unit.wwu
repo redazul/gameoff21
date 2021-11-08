@@ -4,12 +4,19 @@
 		<WorkUnit Name="Default Work Unit" ID="{1EDD88D4-12EB-4DE8-AAA0-9B6708F3A331}" PersistMode="Standalone">
 			<ChildrenList>
 				<MusicSwitchContainer Name="MusicSwitch" ID="{B2CE9F3B-BDC7-4162-AF71-754E791CFC29}" ShortID="794945979">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-3</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E423A8FF-644E-4C40-A9CB-E7827C63C34D}"/>
 						</Reference>
 						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0DA9D181-6D26-4FE8-8F1C-D3ED52A020EF}"/>
+							<ObjectRef Name="MUS" ID="{79CC1892-4A45-493E-93A1-DB65687500B7}" WorkUnitID="{0DA9D181-6D26-4FE8-8F1C-D3ED52A020EF}"/>
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>

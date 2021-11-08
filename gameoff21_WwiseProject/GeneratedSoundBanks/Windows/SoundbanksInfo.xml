@@ -11,12 +11,15 @@
 	<StreamedFiles/>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="1355168291" Language="SFX" Hash="2374325209">
+		<SoundBank Id="1355168291" Language="SFX" Hash="3341199817">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
+			<IncludedAuxBusses>
+				<AuxBus Id="348963605" Name="Reverb" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Reverb"/>
+			</IncludedAuxBusses>
 		</SoundBank>
-		<SoundBank Id="2782712965" Language="SFX" Hash="810457309">
+		<SoundBank Id="2782712965" Language="SFX" Hash="1552055973">
 			<ObjectPath>\SoundBanks\Default Work Unit\Level</ObjectPath>
 			<ShortName>Level</ShortName>
 			<Path>Level.bnk</Path>
@@ -60,6 +63,9 @@
 							<Path>SFX\L1_Enemy_Attack_4 - 0010 - 5_3F75BDB9.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="348963605" Name="Reverb" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Reverb"/>
+					</AuxBusSends>
 				</Event>
 				<Event Id="3046156865" Name="Play_Enemy_Death" ObjectPath="\Events\Default Work Unit\Play_Enemy_Death" DurationType="OneShot" DurationMin="1.618136" DurationMax="2.074360">
 					<IncludedMemoryFiles>
