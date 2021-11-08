@@ -16,7 +16,7 @@
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="2782712965" Language="SFX" Hash="1159431940">
+		<SoundBank Id="2782712965" Language="SFX" Hash="3023700019">
 			<ObjectPath>\SoundBanks\Default Work Unit\Level</ObjectPath>
 			<ShortName>Level</ShortName>
 			<Path>Level.bnk</Path>
@@ -71,15 +71,41 @@
 				</Event>
 				<Event Id="3117137027" Name="Play_MusicSwitch" ObjectPath="\Events\Default Work Unit\Play_MusicSwitch" DurationType="Infinite">
 					<IncludedMemoryFiles>
+						<File Id="327213423" Language="SFX">
+							<ShortName>Music_Base - 0002 - Audio - Base 1.wav</ShortName>
+							<Path>SFX\Music_Base - 0002 - Audio - Base 1_9EDFC787.wem</Path>
+						</File>
+						<File Id="440398258" Language="SFX">
+							<ShortName>Music_Base - 0001 - Audio - Base.wav</ShortName>
+							<Path>SFX\Music_Base - 0001 - Audio - Base_9EDFC787.wem</Path>
+						</File>
 						<File Id="516106755" Language="SFX">
 							<ShortName>Music_Base - 0004 - Audio - Danger.wav</ShortName>
 							<Path>SFX\Music_Base - 0004 - Audio - Danger_9EDFC787.wem</Path>
 						</File>
+						<File Id="690376534" Language="SFX">
+							<ShortName>Music_Base - 0003 - Audio - Base 2.wav</ShortName>
+							<Path>SFX\Music_Base - 0003 - Audio - Base 2_9EDFC787.wem</Path>
+						</File>
 					</IncludedMemoryFiles>
 					<SwitchContainers>
+						<SwitchContainer SwitchValue="{3B8E1A54-9F45-4C9E-A86E-32DA588C6071}">
+							<Media>
+								<File Id="327213423"/>
+								<File Id="440398258"/>
+								<File Id="690376534"/>
+							</Media>
+						</SwitchContainer>
 						<SwitchContainer SwitchValue="{E44950CB-1491-40D5-B055-717D527153DF}">
 							<Media>
 								<File Id="516106755"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{E2A8AF92-82B7-4384-988D-F2342381653A}">
+							<Media>
+								<File Id="327213423"/>
+								<File Id="440398258"/>
+								<File Id="690376534"/>
 							</Media>
 						</SwitchContainer>
 					</SwitchContainers>

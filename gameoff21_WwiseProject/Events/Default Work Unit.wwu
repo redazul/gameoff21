@@ -102,6 +102,17 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_UI_Click" ID="{C83CBFC0-5797-46B0-953C-3FDBAC3FCA1A}">
+					<ChildrenList>
+						<Action Name="" ID="{CA24E5F0-3D80-4312-A5E3-632EB0B3214E}" ShortID="68022009">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="UI_Click" ID="{AF9A1B68-9131-4664-9EDF-8126424A208B}" WorkUnitID="{DCBE4721-569F-4A08-A4A4-01F188FF7558}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
