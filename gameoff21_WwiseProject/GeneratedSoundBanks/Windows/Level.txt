@@ -1,0 +1,56 @@
+Event	ID	Name			Wwise Object Path	Notes
+	48490325	Play_Player_Shoot			\Default Work Unit\Play_Player_Shoot	
+	747429185	Play_Player_Building_Blocks			\Default Work Unit\Play_Player_Building_Blocks	
+	999401179	Play_Player__Get_Multiple_Coins			\Default Work Unit\Play_Player__Get_Multiple_Coins	
+	1056295289	Play_Music_Gameplay_Level			\Default Work Unit\Play_Music_Gameplay_Level	
+	1749424733	Play_UI_Click			\Default Work Unit\Play_UI_Click	
+	1835085974	Play_Player_Death			\Default Work Unit\Play_Player_Death	
+	2460003261	Play_AT_Grass_Tile			\Default Work Unit\Play_AT_Grass_Tile	
+	3046156865	Play_Enemy_Death			\Default Work Unit\Play_Enemy_Death	
+	3638125099	Play_Player_Damage			\Default Work Unit\Play_Player_Damage	
+	3790468069	Play_Player_Spend_Money			\Default Work Unit\Play_Player_Spend_Money	
+	3864777319	Play_Music_Danger			\Default Work Unit\Play_Music_Danger	
+
+State Group	ID	Name			Wwise Object Path	Notes
+	2177735725	Music_Level			\Default Work Unit\Music_Level	
+
+State	ID	Name	State Group			Notes
+	748895195	None	Music_Level			
+	1291433366	Base	Music_Level			
+	4174463524	Danger	Music_Level			
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	17770493	SFX_Building_Blocks 1 L2 - 0001 - 1	D:\Projekte\Studio 52\GitHubRep\gameoff21\gameoff21_WwiseProject\.cache\Windows\SFX\SFX_Building_Blocks 1 L2 - 0001 - 1_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Player_Building_Blocks\Building_Blocks_L1\SFX_Building_Blocks 1 L2 - 0001 - 1		17997
+	136399011	PC_Shoot_3 - 0006 - 3-01	D:\Projekte\Studio 52\GitHubRep\gameoff21\gameoff21_WwiseProject\.cache\Windows\SFX\PC_Shoot_3 - 0006 - 3-01_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Player_Shoot\PC_Shoot_3 - 0006 - 3-01		15760
+	153155036	EnemyDeath - 0023 - 4	D:\Projekte\Studio 52\GitHubRep\gameoff21\gameoff21_WwiseProject\.cache\Windows\SFX\EnemyDeath - 0023 - 4_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Enemy_Death\EnemyDeath - 0023 - 4		32805
+	183192472	PC_Shoot_4 - 0007 - 3-01	D:\Projekte\Studio 52\GitHubRep\gameoff21\gameoff21_WwiseProject\.cache\Windows\SFX\PC_Shoot_4 - 0007 - 3-01_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Player_Shoot\PC_Shoot_4 - 0007 - 3-01		15285
+	216784482	L1_Enemy_Attack_3 - 0009 - 5	D:\Projekte\Studio 52\GitHubRep\gameoff21\gameoff21_WwiseProject\.cache\Windows\SFX\L1_Enemy_Attack_3 - 0009 - 5_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Player_Damage\Enemy_Attack_L1\L1_Enemy_Attack_3 - 0009 - 5		9753
+	223770509	AT_Grass_Tile1 - 0001 - 1	D:\Projekte\Studio 52\GitHubRep\gameoff21\gameoff21_WwiseProject\.cache\Windows\SFX\AT_Grass_Tile1 - 0001 - 1_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\AT\AT_Grass_Tile\AT_Grass_Tile1 - 0001 - 1		2047759
+	243755577	AT_Grass_Tile3 - 0003 - 1	D:\Projekte\Studio 52\GitHubRep\gameoff21\gameoff21_WwiseProject\.cache\Windows\SFX\AT_Grass_Tile3 - 0003 - 1_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\AT\AT_Grass_Tile\AT_Grass_Tile3 - 0003 - 1		2062732
+	284164519	L2_Enemy_Attack_5 - 0015 - 5	D:\Projekte\Studio 52\GitHubRep\gameoff21\gameoff21_WwiseProject\.cache\Windows\SFX\L2_Enemy_Attack_5 - 0015 - 5_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Player_Damage\Enemy_Attack_l2\L2_Enemy_Attack_5 - 0015 - 5		7987
+	331550234	SFX_Building_Blocks 2 L2 - 0005 - 1	D:\Projekte\Studio 52\GitHubRep\gameoff21\gameoff21_WwiseProject\.cache\Windows\SFX\SFX_Building_Blocks 2 L2 - 0005 - 1_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Player_Building_Blocks\Building_BLocks_L2\SFX_Building_Blocks 2 L2 - 0005 - 1		10966
+	345555859	Stereo Out -  - 1	D:\Projekte\Studio 52\GitHubRep\gameoff21\gameoff21_WwiseProject\.cache\Windows\SFX\Stereo Out -  - 1_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\UI_Click\Stereo Out -  - 1		27781
+	357580032	AT_Grass_Tile2 - 0002 - 1	D:\Projekte\Studio 52\GitHubRep\gameoff21\gameoff21_WwiseProject\.cache\Windows\SFX\AT_Grass_Tile2 - 0002 - 1_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\AT\AT_Grass_Tile\AT_Grass_Tile2 - 0002 - 1		2001552
+	373988577	PC_Shoot_1 - 0004 - 3-01	D:\Projekte\Studio 52\GitHubRep\gameoff21\gameoff21_WwiseProject\.cache\Windows\SFX\PC_Shoot_1 - 0004 - 3-01_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Player_Shoot\PC_Shoot_1 - 0004 - 3-01		13977
+	403315631	L2_Enemy_Attack_4 - 0014 - 5	D:\Projekte\Studio 52\GitHubRep\gameoff21\gameoff21_WwiseProject\.cache\Windows\SFX\L2_Enemy_Attack_4 - 0014 - 5_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Player_Damage\Enemy_Attack_l2\L2_Enemy_Attack_4 - 0014 - 5		9003
+	439757114	Music_Base - 0003 - Audio - Base 2	D:\Projekte\Studio 52\GitHubRep\gameoff21\gameoff21_WwiseProject\.cache\Windows\SFX\Music_Base - 0003 - Audio - Base 2_9EDFC787.wem		\Interactive Music Hierarchy\Default Work Unit\Music_Gameplay_Level\Base\Base_02\Music_Base - 0003 - Audio - Base 2		243683
+	466422492	SFX_Building_Blocks 3 L1 - 0003 - 1	D:\Projekte\Studio 52\GitHubRep\gameoff21\gameoff21_WwiseProject\.cache\Windows\SFX\SFX_Building_Blocks 3 L1 - 0003 - 1_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Player_Building_Blocks\Building_Blocks_L1\SFX_Building_Blocks 3 L1 - 0003 - 1		14298
+	490852655	L2_Enemy_Attack_2 - 0012 - 5	D:\Projekte\Studio 52\GitHubRep\gameoff21\gameoff21_WwiseProject\.cache\Windows\SFX\L2_Enemy_Attack_2 - 0012 - 5_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Player_Damage\Enemy_Attack_l2\L2_Enemy_Attack_2 - 0012 - 5		8316
+	516106755	Music_Base - 0004 - Audio - Danger	D:\Projekte\Studio 52\GitHubRep\gameoff21\gameoff21_WwiseProject\.cache\Windows\SFX\Music_Base - 0004 - Audio - Danger_9EDFC787.wem		\Interactive Music Hierarchy\Default Work Unit\Music_Gameplay_Level\Music_Danger\Danger\Music_Base - 0004 - Audio - Danger		159761
+	554917493	L2_Enemy_Attack_3 - 0013 - 5	D:\Projekte\Studio 52\GitHubRep\gameoff21\gameoff21_WwiseProject\.cache\Windows\SFX\L2_Enemy_Attack_3 - 0013 - 5_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Player_Damage\Enemy_Attack_l2\L2_Enemy_Attack_3 - 0013 - 5		7835
+	582667900	SFX_Win_Coins 1 - 0001 - 1	D:\Projekte\Studio 52\GitHubRep\gameoff21\gameoff21_WwiseProject\.cache\Windows\SFX\SFX_Win_Coins 1 - 0001 - 1_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Player_Spend_Money\SFX_Win_Coins 1 - 0001 - 1		4314
+	654248880	L1_Enemy_Attack_1 - 0008 - 5	D:\Projekte\Studio 52\GitHubRep\gameoff21\gameoff21_WwiseProject\.cache\Windows\SFX\L1_Enemy_Attack_1 - 0008 - 5_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Player_Damage\Enemy_Attack_L1\L1_Enemy_Attack_1 - 0008 - 5		11673
+	702963227	SFX_Building_Blocks 1 L2 - 0004 - 1	D:\Projekte\Studio 52\GitHubRep\gameoff21\gameoff21_WwiseProject\.cache\Windows\SFX\SFX_Building_Blocks 1 L2 - 0004 - 1_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Player_Building_Blocks\Building_BLocks_L2\SFX_Building_Blocks 1 L2 - 0004 - 1		16175
+	706564125	AT_Grass_Tile4 - 0004 - 1	D:\Projekte\Studio 52\GitHubRep\gameoff21\gameoff21_WwiseProject\.cache\Windows\SFX\AT_Grass_Tile4 - 0004 - 1_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\AT\AT_Grass_Tile\AT_Grass_Tile4 - 0004 - 1		2033027
+	714178729	SFX_Win_Coins_Multiple - 0003 - 2	D:\Projekte\Studio 52\GitHubRep\gameoff21\gameoff21_WwiseProject\.cache\Windows\SFX\SFX_Win_Coins_Multiple - 0003 - 2_F790ED66.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Player__Get_Multiple_Coins\SFX_Win_Coins_Multiple - 0003 - 2		109486
+	727214662	Another Wakka - 0006 - 1	D:\Projekte\Studio 52\GitHubRep\gameoff21\gameoff21_WwiseProject\.cache\Windows\SFX\Another Wakka - 0006 - 1_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Player_Building_Blocks\Another Wakka - 0006 - 1		6598
+	746065919	SFX_Win_Coins 2 - 0002 - 1	D:\Projekte\Studio 52\GitHubRep\gameoff21\gameoff21_WwiseProject\.cache\Windows\SFX\SFX_Win_Coins 2 - 0002 - 1_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Player_Spend_Money\SFX_Win_Coins 2 - 0002 - 1		2334
+	782886082	Music_Base - 0002 - Audio - Base 1	D:\Projekte\Studio 52\GitHubRep\gameoff21\gameoff21_WwiseProject\.cache\Windows\SFX\Music_Base - 0002 - Audio - Base 1_9EDFC787.wem		\Interactive Music Hierarchy\Default Work Unit\Music_Gameplay_Level\Base\Base_01\Music_Base - 0002 - Audio - Base 1		212199
+	791524427	SFX_Building_Blocks 2 L2 - 0002 - 1	D:\Projekte\Studio 52\GitHubRep\gameoff21\gameoff21_WwiseProject\.cache\Windows\SFX\SFX_Building_Blocks 2 L2 - 0002 - 1_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Player_Building_Blocks\Building_Blocks_L1\SFX_Building_Blocks 2 L2 - 0002 - 1		19372
+	825688602	L2_Enemy_Attack_1 - 0011 - 5	D:\Projekte\Studio 52\GitHubRep\gameoff21\gameoff21_WwiseProject\.cache\Windows\SFX\L2_Enemy_Attack_1 - 0011 - 5_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Player_Damage\Enemy_Attack_l2\L2_Enemy_Attack_1 - 0011 - 5		8498
+	842335354	Music_Base - 0001 - Audio - Base	D:\Projekte\Studio 52\GitHubRep\gameoff21\gameoff21_WwiseProject\.cache\Windows\SFX\Music_Base - 0001 - Audio - Base_9EDFC787.wem		\Interactive Music Hierarchy\Default Work Unit\Music_Gameplay_Level\Base\Base\Music_Base - 0001 - Audio - Base		265051
+	934811383	L2_Enemy_Attack_6 - 0016 - 5	D:\Projekte\Studio 52\GitHubRep\gameoff21\gameoff21_WwiseProject\.cache\Windows\SFX\L2_Enemy_Attack_6 - 0016 - 5_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Player_Damage\Enemy_Attack_l2\L2_Enemy_Attack_6 - 0016 - 5		8454
+	945938747	L1_Enemy_Attack_4 - 0010 - 5	D:\Projekte\Studio 52\GitHubRep\gameoff21\gameoff21_WwiseProject\.cache\Windows\SFX\L1_Enemy_Attack_4 - 0010 - 5_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Player_Damage\Enemy_Attack_L1\L1_Enemy_Attack_4 - 0010 - 5		10508
+	1003338774	PC_Shoot_2 - 0005 - 3-01	D:\Projekte\Studio 52\GitHubRep\gameoff21\gameoff21_WwiseProject\.cache\Windows\SFX\PC_Shoot_2 - 0005 - 3-01_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Player_Shoot\PC_Shoot_2 - 0005 - 3-01		14927
+	1009164427	PlayerDeath - 0025 - 6	D:\Projekte\Studio 52\GitHubRep\gameoff21\gameoff21_WwiseProject\.cache\Windows\SFX\PlayerDeath - 0025 - 6_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Player_Death\PlayerDeath - 0025 - 6		49395
+
