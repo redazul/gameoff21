@@ -15,6 +15,7 @@ namespace AK
     {
         static const AkUniqueID PLAY_ENEMY_ATTACK = 2257393085U;
         static const AkUniqueID PLAY_ENEMY_DEATH = 3046156865U;
+        static const AkUniqueID PLAY_MUSICSWITCH = 3117137027U;
         static const AkUniqueID PLAY_PLAYER_DEATH = 1835085974U;
         static const AkUniqueID PLAY_PLAYER_GET_COINS_MULTIPLE = 1225214618U;
         static const AkUniqueID PLAY_PLAYER_SHOOT = 48490325U;
@@ -22,6 +23,22 @@ namespace AK
         static const AkUniqueID PLAY_SFX_SPEND_COIN = 450680866U;
         static const AkUniqueID PLAY_SPEND_COIN = 1546982462U;
     } // namespace EVENTS
+
+    namespace STATES
+    {
+        namespace MUSIC
+        {
+            static const AkUniqueID GROUP = 3991942870U;
+
+            namespace STATE
+            {
+                static const AkUniqueID BASE = 1291433366U;
+                static const AkUniqueID DANGER = 4174463524U;
+                static const AkUniqueID NONE = 748895195U;
+            } // namespace STATE
+        } // namespace MUSIC
+
+    } // namespace STATES
 
     namespace BANKS
     {

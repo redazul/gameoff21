@@ -11,12 +11,12 @@
 	<StreamedFiles/>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="1355168291" Language="SFX" Hash="3690994985">
+		<SoundBank Id="1355168291" Language="SFX" Hash="2374325209">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="2782712965" Language="SFX" Hash="2113457526">
+		<SoundBank Id="2782712965" Language="SFX" Hash="1159431940">
 			<ObjectPath>\SoundBanks\Default Work Unit\Level</ObjectPath>
 			<ShortName>Level</ShortName>
 			<Path>Level.bnk</Path>
@@ -68,6 +68,21 @@
 							<Path>SFX\EnemyDeath - 0023 - 4_3F75BDB9.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3117137027" Name="Play_MusicSwitch" ObjectPath="\Events\Default Work Unit\Play_MusicSwitch" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="516106755" Language="SFX">
+							<ShortName>Music_Base - 0004 - Audio - Danger.wav</ShortName>
+							<Path>SFX\Music_Base - 0004 - Audio - Danger_9EDFC787.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<SwitchContainers>
+						<SwitchContainer SwitchValue="{E44950CB-1491-40D5-B055-717D527153DF}">
+							<Media>
+								<File Id="516106755"/>
+							</Media>
+						</SwitchContainer>
+					</SwitchContainers>
 				</Event>
 				<Event Id="1835085974" Name="Play_Player_Death" ObjectPath="\Events\Default Work Unit\Play_Player_Death" DurationType="OneShot" DurationMin="5.000000" DurationMax="5.000000">
 					<IncludedMemoryFiles>
@@ -150,6 +165,15 @@
 					</IncludedMemoryFiles>
 				</Event>
 			</IncludedEvents>
+			<StateGroups>
+				<StateGroup Id="3991942870" Name="Music" ObjectPath="\States\Default Work Unit\Music" GUID="{8C271762-D7E1-489D-80D5-7D1F7029A5FA}">
+					<States>
+						<State Id="748895195" Name="None" ObjectPath="\States\Default Work Unit\Music\None" GUID="{E2A8AF92-82B7-4384-988D-F2342381653A}"/>
+						<State Id="1291433366" Name="Base" ObjectPath="\States\Default Work Unit\Music\Base" GUID="{3B8E1A54-9F45-4C9E-A86E-32DA588C6071}"/>
+						<State Id="4174463524" Name="Danger" ObjectPath="\States\Default Work Unit\Music\Danger" GUID="{E44950CB-1491-40D5-B055-717D527153DF}"/>
+					</States>
+				</StateGroup>
+			</StateGroups>
 		</SoundBank>
 	</SoundBanks>
 </SoundBanksInfo>

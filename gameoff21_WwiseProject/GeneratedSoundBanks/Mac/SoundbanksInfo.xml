@@ -11,21 +11,132 @@
 	<StreamedFiles/>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="1355168291" Language="SFX" Hash="2754342975">
+		<SoundBank Id="1355168291" Language="SFX" Hash="3017090543">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="2782712965" Language="SFX" Hash="2097738706">
+		<SoundBank Id="2782712965" Language="SFX" Hash="1159431940">
 			<ObjectPath>\SoundBanks\Default Work Unit\Level</ObjectPath>
 			<ShortName>Level</ShortName>
 			<Path>Level.bnk</Path>
 			<IncludedEvents>
+				<Event Id="2257393085" Name="Play_Enemy_Attack" ObjectPath="\Events\Default Work Unit\Play_Enemy_Attack" DurationType="OneShot" DurationMin="0.771221" DurationMax="1.047451">
+					<IncludedMemoryFiles>
+						<File Id="216784482" Language="SFX">
+							<ShortName>L1_Enemy_Attack_3 - 0009 - 5.wav</ShortName>
+							<Path>SFX\L1_Enemy_Attack_3 - 0009 - 5_3F75BDB9.wem</Path>
+						</File>
+						<File Id="284164519" Language="SFX">
+							<ShortName>L2_Enemy_Attack_5 - 0015 - 5.wav</ShortName>
+							<Path>SFX\L2_Enemy_Attack_5 - 0015 - 5_3F75BDB9.wem</Path>
+						</File>
+						<File Id="403315631" Language="SFX">
+							<ShortName>L2_Enemy_Attack_4 - 0014 - 5.wav</ShortName>
+							<Path>SFX\L2_Enemy_Attack_4 - 0014 - 5_3F75BDB9.wem</Path>
+						</File>
+						<File Id="490852655" Language="SFX">
+							<ShortName>L2_Enemy_Attack_2 - 0012 - 5.wav</ShortName>
+							<Path>SFX\L2_Enemy_Attack_2 - 0012 - 5_3F75BDB9.wem</Path>
+						</File>
+						<File Id="554917493" Language="SFX">
+							<ShortName>L2_Enemy_Attack_3 - 0013 - 5.wav</ShortName>
+							<Path>SFX\L2_Enemy_Attack_3 - 0013 - 5_3F75BDB9.wem</Path>
+						</File>
+						<File Id="654248880" Language="SFX">
+							<ShortName>L1_Enemy_Attack_1 - 0008 - 5.wav</ShortName>
+							<Path>SFX\L1_Enemy_Attack_1 - 0008 - 5_3F75BDB9.wem</Path>
+						</File>
+						<File Id="825688602" Language="SFX">
+							<ShortName>L2_Enemy_Attack_1 - 0011 - 5.wav</ShortName>
+							<Path>SFX\L2_Enemy_Attack_1 - 0011 - 5_3F75BDB9.wem</Path>
+						</File>
+						<File Id="934811383" Language="SFX">
+							<ShortName>L2_Enemy_Attack_6 - 0016 - 5.wav</ShortName>
+							<Path>SFX\L2_Enemy_Attack_6 - 0016 - 5_3F75BDB9.wem</Path>
+						</File>
+						<File Id="945938747" Language="SFX">
+							<ShortName>L1_Enemy_Attack_4 - 0010 - 5.wav</ShortName>
+							<Path>SFX\L1_Enemy_Attack_4 - 0010 - 5_3F75BDB9.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3046156865" Name="Play_Enemy_Death" ObjectPath="\Events\Default Work Unit\Play_Enemy_Death" DurationType="OneShot" DurationMin="1.618136" DurationMax="2.074360">
+					<IncludedMemoryFiles>
+						<File Id="153155036" Language="SFX">
+							<ShortName>EnemyDeath - 0023 - 4.wav</ShortName>
+							<Path>SFX\EnemyDeath - 0023 - 4_3F75BDB9.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3117137027" Name="Play_MusicSwitch" ObjectPath="\Events\Default Work Unit\Play_MusicSwitch" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="516106755" Language="SFX">
+							<ShortName>Music_Base - 0004 - Audio - Danger.wav</ShortName>
+							<Path>SFX\Music_Base - 0004 - Audio - Danger_9EDFC787.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<SwitchContainers>
+						<SwitchContainer SwitchValue="{E44950CB-1491-40D5-B055-717D527153DF}">
+							<Media>
+								<File Id="516106755"/>
+							</Media>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
+				<Event Id="1835085974" Name="Play_Player_Death" ObjectPath="\Events\Default Work Unit\Play_Player_Death" DurationType="OneShot" DurationMin="5.000000" DurationMax="5.000000">
+					<IncludedMemoryFiles>
+						<File Id="1009164427" Language="SFX">
+							<ShortName>PlayerDeath - 0025 - 6.wav</ShortName>
+							<Path>SFX\PlayerDeath - 0025 - 6_3F75BDB9.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
 				<Event Id="1225214618" Name="Play_Player_Get_Coins_Multiple" ObjectPath="\Events\Default Work Unit\Play_Player_Get_Coins_Multiple" DurationType="OneShot" DurationMin="10.000000" DurationMax="10.000000">
 					<IncludedMemoryFiles>
 						<File Id="714178729" Language="SFX">
 							<ShortName>SFX_Win_Coins_Multiple - 0003 - 2.wav</ShortName>
 							<Path>SFX\SFX_Win_Coins_Multiple - 0003 - 2_3F75BDB9.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="48490325" Name="Play_Player_Shoot" ObjectPath="\Events\Default Work Unit\Play_Player_Shoot" DurationType="OneShot" DurationMin="1.637276" DurationMax="2.191823">
+					<IncludedMemoryFiles>
+						<File Id="57917728" Language="SFX">
+							<ShortName>PC_Shoot_3 - 0006 - 3.wav</ShortName>
+							<Path>SFX\PC_Shoot_3 - 0006 - 3_3F75BDB9.wem</Path>
+						</File>
+						<File Id="514445112" Language="SFX">
+							<ShortName>PC_Shoot_2 - 0005 - 3.wav</ShortName>
+							<Path>SFX\PC_Shoot_2 - 0005 - 3_3F75BDB9.wem</Path>
+						</File>
+						<File Id="801043089" Language="SFX">
+							<ShortName>PC_Shoot_4 - 0007 - 3.wav</ShortName>
+							<Path>SFX\PC_Shoot_4 - 0007 - 3_3F75BDB9.wem</Path>
+						</File>
+						<File Id="862202328" Language="SFX">
+							<ShortName>PC_Shoot_1 - 0004 - 3.wav</ShortName>
+							<Path>SFX\PC_Shoot_1 - 0004 - 3_3F75BDB9.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="356960689" Name="Play_Player_Shoot_01" ObjectPath="\Events\Default Work Unit\Play_Player_Shoot_01" DurationType="OneShot" DurationMin="1.637276" DurationMax="2.191823">
+					<IncludedMemoryFiles>
+						<File Id="57917728" Language="SFX">
+							<ShortName>PC_Shoot_3 - 0006 - 3.wav</ShortName>
+							<Path>SFX\PC_Shoot_3 - 0006 - 3_3F75BDB9.wem</Path>
+						</File>
+						<File Id="514445112" Language="SFX">
+							<ShortName>PC_Shoot_2 - 0005 - 3.wav</ShortName>
+							<Path>SFX\PC_Shoot_2 - 0005 - 3_3F75BDB9.wem</Path>
+						</File>
+						<File Id="801043089" Language="SFX">
+							<ShortName>PC_Shoot_4 - 0007 - 3.wav</ShortName>
+							<Path>SFX\PC_Shoot_4 - 0007 - 3_3F75BDB9.wem</Path>
+						</File>
+						<File Id="862202328" Language="SFX">
+							<ShortName>PC_Shoot_1 - 0004 - 3.wav</ShortName>
+							<Path>SFX\PC_Shoot_1 - 0004 - 3_3F75BDB9.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -41,7 +152,28 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
+				<Event Id="1546982462" Name="Play_Spend_Coin" ObjectPath="\Events\Default Work Unit\Play_Spend_Coin" DurationType="OneShot" DurationMin="29.000000" DurationMax="29.000000">
+					<IncludedMemoryFiles>
+						<File Id="191710348" Language="SFX">
+							<ShortName>123 - 0001 - Audio - SFX_Win_Coins 1.wav</ShortName>
+							<Path>SFX\123 - 0001 - Audio - SFX_Win_Coins 1_3F75BDB9.wem</Path>
+						</File>
+						<File Id="447531595" Language="SFX">
+							<ShortName>123 - 0002 - Audio - SFX_Win_Coins 2.wav</ShortName>
+							<Path>SFX\123 - 0002 - Audio - SFX_Win_Coins 2_3F75BDB9.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
 			</IncludedEvents>
+			<StateGroups>
+				<StateGroup Id="3991942870" Name="Music" ObjectPath="\States\Default Work Unit\Music" GUID="{8C271762-D7E1-489D-80D5-7D1F7029A5FA}">
+					<States>
+						<State Id="748895195" Name="None" ObjectPath="\States\Default Work Unit\Music\None" GUID="{E2A8AF92-82B7-4384-988D-F2342381653A}"/>
+						<State Id="1291433366" Name="Base" ObjectPath="\States\Default Work Unit\Music\Base" GUID="{3B8E1A54-9F45-4C9E-A86E-32DA588C6071}"/>
+						<State Id="4174463524" Name="Danger" ObjectPath="\States\Default Work Unit\Music\Danger" GUID="{E44950CB-1491-40D5-B055-717D527153DF}"/>
+					</States>
+				</StateGroup>
+			</StateGroups>
 		</SoundBank>
 	</SoundBanks>
 </SoundBanksInfo>
