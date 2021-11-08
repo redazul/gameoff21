@@ -1,6 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{D8486F8E-71E6-4FF0-ADBE-30AF4D28CA49}" SchemaVersion="103">
 	<SoundBanks>
-		<WorkUnit Name="Default Work Unit" ID="{D8486F8E-71E6-4FF0-ADBE-30AF4D28CA49}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{D8486F8E-71E6-4FF0-ADBE-30AF4D28CA49}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="Level" ID="{4D5E9C98-5E7D-46B2-909F-423526F169B8}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Play_Player_Death" ID="{2939566E-886B-40A1-BBCD-AEE2C85F88EB}" WorkUnitID="{8BF567C2-8070-4C01-B482-5729AA7B9CE0}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Player_Shoot_01" ID="{8279802E-F6F9-4542-A3BB-747F8744C294}" WorkUnitID="{8BF567C2-8070-4C01-B482-5729AA7B9CE0}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Player_Shoot" ID="{F8AD4FB7-D994-456F-A412-1C754A07A0FA}" WorkUnitID="{8BF567C2-8070-4C01-B482-5729AA7B9CE0}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_SFX_Spend_Coin" ID="{AF1FA9BA-1A5B-4588-83E0-233B137A2328}" WorkUnitID="{8BF567C2-8070-4C01-B482-5729AA7B9CE0}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Player_Get_Coins_Multiple" ID="{79BD19D4-0C6D-474F-B0BC-51B8A09A31E8}" WorkUnitID="{8BF567C2-8070-4C01-B482-5729AA7B9CE0}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Enemy_Attack" ID="{F6E557A1-DD8C-48FD-B2EF-EBE5D5C8A751}" WorkUnitID="{8BF567C2-8070-4C01-B482-5729AA7B9CE0}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Spend_Coin" ID="{AD1B8830-2C60-4B0D-AD24-F9044695CB49}" WorkUnitID="{8BF567C2-8070-4C01-B482-5729AA7B9CE0}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Enemy_Death" ID="{369D3524-FB1F-4F85-8B03-1EDEBD1E6588}" WorkUnitID="{8BF567C2-8070-4C01-B482-5729AA7B9CE0}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
 	</SoundBanks>
 </WwiseDocument>

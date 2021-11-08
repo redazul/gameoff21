@@ -1,7 +1,30 @@
 Event	ID	Name			Wwise Object Path	Notes
+	48490325	Play_Player_Shoot			\Default Work Unit\Play_Player_Shoot	
+	356960689	Play_Player_Shoot_01			\Default Work Unit\Play_Player_Shoot_01	
 	450680866	Play_SFX_Spend_Coin			\Default Work Unit\Play_SFX_Spend_Coin	
+	1225214618	Play_Player_Get_Coins_Multiple			\Default Work Unit\Play_Player_Get_Coins_Multiple	
+	1546982462	Play_Spend_Coin			\Default Work Unit\Play_Spend_Coin	
+	1835085974	Play_Player_Death			\Default Work Unit\Play_Player_Death	
+	2257393085	Play_Enemy_Attack			\Default Work Unit\Play_Enemy_Attack	
+	3046156865	Play_Enemy_Death			\Default Work Unit\Play_Enemy_Death	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	191710348	123 - 0001 - Audio - SFX_Win_Coins 1	D:\Projekte\Studio 52\GitHubRep\gameoff21\gameoff21_WwiseProject\.cache\Windows\SFX\123 - 0001 - Audio - SFX_Win_Coins 1_C1F52A07.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\SFX_Spend_Coin\123 - 0001 - Audio - SFX_Win_Coins 1		9273
-	447531595	123 - 0002 - Audio - SFX_Win_Coins 2	D:\Projekte\Studio 52\GitHubRep\gameoff21\gameoff21_WwiseProject\.cache\Windows\SFX\123 - 0002 - Audio - SFX_Win_Coins 2_C1F52A07.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\SFX_Spend_Coin\123 - 0002 - Audio - SFX_Win_Coins 2		7315
+	57917728	PC_Shoot_3 - 0006 - 3	D:\Projekte\Studio 52\GitHubRep\gameoff21\gameoff21_WwiseProject\.cache\Windows\SFX\PC_Shoot_3 - 0006 - 3_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Player_Shoot\PC_Shoot_3 - 0006 - 3		18825
+	153155036	EnemyDeath - 0023 - 4	D:\Projekte\Studio 52\GitHubRep\gameoff21\gameoff21_WwiseProject\.cache\Windows\SFX\EnemyDeath - 0023 - 4_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Enemy_Death\EnemyDeath - 0023 - 4		32805
+	191710348	123 - 0001 - Audio - SFX_Win_Coins 1	D:\Projekte\Studio 52\GitHubRep\gameoff21\gameoff21_WwiseProject\.cache\Windows\SFX\123 - 0001 - Audio - SFX_Win_Coins 1_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Spend_Coin\123 - 0001 - Audio - SFX_Win_Coins 1		9273
+	216784482	L1_Enemy_Attack_3 - 0009 - 5	D:\Projekte\Studio 52\GitHubRep\gameoff21\gameoff21_WwiseProject\.cache\Windows\SFX\L1_Enemy_Attack_3 - 0009 - 5_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Enemy_Attack\L1\L1_Enemy_Attack_3 - 0009 - 5		9753
+	284164519	L2_Enemy_Attack_5 - 0015 - 5	D:\Projekte\Studio 52\GitHubRep\gameoff21\gameoff21_WwiseProject\.cache\Windows\SFX\L2_Enemy_Attack_5 - 0015 - 5_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Enemy_Attack\L2\L2_Enemy_Attack_5 - 0015 - 5		7987
+	403315631	L2_Enemy_Attack_4 - 0014 - 5	D:\Projekte\Studio 52\GitHubRep\gameoff21\gameoff21_WwiseProject\.cache\Windows\SFX\L2_Enemy_Attack_4 - 0014 - 5_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Enemy_Attack\L2\L2_Enemy_Attack_4 - 0014 - 5		9003
+	447531595	123 - 0002 - Audio - SFX_Win_Coins 2	D:\Projekte\Studio 52\GitHubRep\gameoff21\gameoff21_WwiseProject\.cache\Windows\SFX\123 - 0002 - Audio - SFX_Win_Coins 2_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Spend_Coin\123 - 0002 - Audio - SFX_Win_Coins 2		7315
+	490852655	L2_Enemy_Attack_2 - 0012 - 5	D:\Projekte\Studio 52\GitHubRep\gameoff21\gameoff21_WwiseProject\.cache\Windows\SFX\L2_Enemy_Attack_2 - 0012 - 5_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Enemy_Attack\L2\L2_Enemy_Attack_2 - 0012 - 5		8316
+	514445112	PC_Shoot_2 - 0005 - 3	D:\Projekte\Studio 52\GitHubRep\gameoff21\gameoff21_WwiseProject\.cache\Windows\SFX\PC_Shoot_2 - 0005 - 3_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Player_Shoot\PC_Shoot_2 - 0005 - 3		17474
+	554917493	L2_Enemy_Attack_3 - 0013 - 5	D:\Projekte\Studio 52\GitHubRep\gameoff21\gameoff21_WwiseProject\.cache\Windows\SFX\L2_Enemy_Attack_3 - 0013 - 5_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Enemy_Attack\L2\L2_Enemy_Attack_3 - 0013 - 5		7835
+	654248880	L1_Enemy_Attack_1 - 0008 - 5	D:\Projekte\Studio 52\GitHubRep\gameoff21\gameoff21_WwiseProject\.cache\Windows\SFX\L1_Enemy_Attack_1 - 0008 - 5_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Enemy_Attack\L1\L1_Enemy_Attack_1 - 0008 - 5		11673
+	714178729	SFX_Win_Coins_Multiple - 0003 - 2	D:\Projekte\Studio 52\GitHubRep\gameoff21\gameoff21_WwiseProject\.cache\Windows\SFX\SFX_Win_Coins_Multiple - 0003 - 2_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Player_Get_Coins_Multiple\SFX_Win_Coins_Multiple - 0003 - 2		147982
+	801043089	PC_Shoot_4 - 0007 - 3	D:\Projekte\Studio 52\GitHubRep\gameoff21\gameoff21_WwiseProject\.cache\Windows\SFX\PC_Shoot_4 - 0007 - 3_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Player_Shoot\PC_Shoot_4 - 0007 - 3		18144
+	825688602	L2_Enemy_Attack_1 - 0011 - 5	D:\Projekte\Studio 52\GitHubRep\gameoff21\gameoff21_WwiseProject\.cache\Windows\SFX\L2_Enemy_Attack_1 - 0011 - 5_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Enemy_Attack\L2\L2_Enemy_Attack_1 - 0011 - 5		8498
+	862202328	PC_Shoot_1 - 0004 - 3	D:\Projekte\Studio 52\GitHubRep\gameoff21\gameoff21_WwiseProject\.cache\Windows\SFX\PC_Shoot_1 - 0004 - 3_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Player_Shoot\PC_Shoot_1 - 0004 - 3		16483
+	934811383	L2_Enemy_Attack_6 - 0016 - 5	D:\Projekte\Studio 52\GitHubRep\gameoff21\gameoff21_WwiseProject\.cache\Windows\SFX\L2_Enemy_Attack_6 - 0016 - 5_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Enemy_Attack\L2\L2_Enemy_Attack_6 - 0016 - 5		8454
+	945938747	L1_Enemy_Attack_4 - 0010 - 5	D:\Projekte\Studio 52\GitHubRep\gameoff21\gameoff21_WwiseProject\.cache\Windows\SFX\L1_Enemy_Attack_4 - 0010 - 5_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Enemy_Attack\L1\L1_Enemy_Attack_4 - 0010 - 5		10508
+	1009164427	PlayerDeath - 0025 - 6	D:\Projekte\Studio 52\GitHubRep\gameoff21\gameoff21_WwiseProject\.cache\Windows\SFX\PlayerDeath - 0025 - 6_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Player_Death\PlayerDeath - 0025 - 6		49395
 

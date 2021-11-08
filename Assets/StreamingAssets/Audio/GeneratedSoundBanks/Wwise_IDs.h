@@ -13,7 +13,14 @@ namespace AK
 {
     namespace EVENTS
     {
+        static const AkUniqueID PLAY_ENEMY_ATTACK = 2257393085U;
+        static const AkUniqueID PLAY_ENEMY_DEATH = 3046156865U;
+        static const AkUniqueID PLAY_PLAYER_DEATH = 1835085974U;
+        static const AkUniqueID PLAY_PLAYER_GET_COINS_MULTIPLE = 1225214618U;
+        static const AkUniqueID PLAY_PLAYER_SHOOT = 48490325U;
+        static const AkUniqueID PLAY_PLAYER_SHOOT_01 = 356960689U;
         static const AkUniqueID PLAY_SFX_SPEND_COIN = 450680866U;
+        static const AkUniqueID PLAY_SPEND_COIN = 1546982462U;
     } // namespace EVENTS
 
     namespace BANKS

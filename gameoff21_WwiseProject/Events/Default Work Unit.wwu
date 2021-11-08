@@ -1,6 +1,97 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{8BF567C2-8070-4C01-B482-5729AA7B9CE0}" SchemaVersion="103">
 	<Events>
-		<WorkUnit Name="Default Work Unit" ID="{8BF567C2-8070-4C01-B482-5729AA7B9CE0}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{8BF567C2-8070-4C01-B482-5729AA7B9CE0}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Play_SFX_Spend_Coin" ID="{AF1FA9BA-1A5B-4588-83E0-233B137A2328}">
+					<ChildrenList>
+						<Action Name="" ID="{62ECBBDF-4276-4228-9E96-871B1D25E676}" ShortID="316495070">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Spend_Coin" ID="{32BA7BC7-6460-465C-B748-B0285B118DE6}" WorkUnitID="{2138D775-BC3B-4644-B017-93FBAD1A3D4F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Player_Get_Coins_Multiple" ID="{79BD19D4-0C6D-474F-B0BC-51B8A09A31E8}">
+					<ChildrenList>
+						<Action Name="" ID="{421AD1C1-6DC9-4F22-933F-55E8B9FF02C8}" ShortID="1028731693">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Player_Get_Coins_Multiple" ID="{F2219D3A-0EF3-47A0-B236-22AAB3B20834}" WorkUnitID="{2138D775-BC3B-4644-B017-93FBAD1A3D4F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Player_Shoot" ID="{F8AD4FB7-D994-456F-A412-1C754A07A0FA}">
+					<ChildrenList>
+						<Action Name="" ID="{8A7048F8-ECCF-4D03-9450-24931073CD1D}" ShortID="475353532">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Player_Shoot" ID="{D0B78982-4809-4431-851F-8FE45B695E6C}" WorkUnitID="{2138D775-BC3B-4644-B017-93FBAD1A3D4F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Player_Shoot_01" ID="{8279802E-F6F9-4542-A3BB-747F8744C294}">
+					<ChildrenList>
+						<Action Name="" ID="{D8F7D0BE-061C-46DE-B087-B3F6EB12725D}" ShortID="937812100">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Player_Shoot" ID="{D0B78982-4809-4431-851F-8FE45B695E6C}" WorkUnitID="{2138D775-BC3B-4644-B017-93FBAD1A3D4F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Enemy_Attack" ID="{F6E557A1-DD8C-48FD-B2EF-EBE5D5C8A751}">
+					<ChildrenList>
+						<Action Name="" ID="{47AA2D0B-694E-44A4-98F7-AA06AEAF3F09}" ShortID="121934513">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Enemy_Attack" ID="{2FC17B25-BD48-4CCA-BC52-BCC115363BCD}" WorkUnitID="{2138D775-BC3B-4644-B017-93FBAD1A3D4F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Enemy_Death" ID="{369D3524-FB1F-4F85-8B03-1EDEBD1E6588}">
+					<ChildrenList>
+						<Action Name="" ID="{C7A9862F-74F4-40A5-8F59-BD1282AD0B40}" ShortID="487728700">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Enemy_Death" ID="{41C2916D-553E-4172-BD3E-CA6C1FD13874}" WorkUnitID="{2138D775-BC3B-4644-B017-93FBAD1A3D4F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Player_Death" ID="{2939566E-886B-40A1-BBCD-AEE2C85F88EB}">
+					<ChildrenList>
+						<Action Name="" ID="{EE0424FB-C8A5-42C5-9082-EFCB5FD643BB}" ShortID="46071525">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Player_Death" ID="{12691EC9-8E71-496E-8D15-3DB52C751BBD}" WorkUnitID="{2138D775-BC3B-4644-B017-93FBAD1A3D4F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Spend_Coin" ID="{AD1B8830-2C60-4B0D-AD24-F9044695CB49}">
+					<ChildrenList>
+						<Action Name="" ID="{67C5098C-34C0-42FD-B702-58BE85FC16CE}" ShortID="299210194">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Spend_Coin" ID="{32BA7BC7-6460-465C-B748-B0285B118DE6}" WorkUnitID="{2138D775-BC3B-4644-B017-93FBAD1A3D4F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
 	</Events>
 </WwiseDocument>

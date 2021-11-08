@@ -1,7 +1,9 @@
 Event	ID	Name			Wwise Object Path	Notes
 	450680866	Play_SFX_Spend_Coin			\Default Work Unit\Play_SFX_Spend_Coin	
+	1225214618	Play_Player_Get_Coins_Multiple			\Default Work Unit\Play_Player_Get_Coins_Multiple	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	191710348	123 - 0001 - Audio - SFX_Win_Coins 1	D:\Projekte\Studio 52\GitHubRep\gameoff21\gameoff21_WwiseProject\.cache\Mac\SFX\123 - 0001 - Audio - SFX_Win_Coins 1_C1F52A07.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\SFX_Spend_Coin\123 - 0001 - Audio - SFX_Win_Coins 1		9273
-	447531595	123 - 0002 - Audio - SFX_Win_Coins 2	D:\Projekte\Studio 52\GitHubRep\gameoff21\gameoff21_WwiseProject\.cache\Mac\SFX\123 - 0002 - Audio - SFX_Win_Coins 2_C1F52A07.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\SFX_Spend_Coin\123 - 0002 - Audio - SFX_Win_Coins 2		7315
+	191710348	123 - 0001 - Audio - SFX_Win_Coins 1	D:\Projekte\Studio 52\GitHubRep\gameoff21\gameoff21_WwiseProject\.cache\Mac\SFX\123 - 0001 - Audio - SFX_Win_Coins 1_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\SFX_Spend_Coin\123 - 0001 - Audio - SFX_Win_Coins 1		9273
+	447531595	123 - 0002 - Audio - SFX_Win_Coins 2	D:\Projekte\Studio 52\GitHubRep\gameoff21\gameoff21_WwiseProject\.cache\Mac\SFX\123 - 0002 - Audio - SFX_Win_Coins 2_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\SFX_Spend_Coin\123 - 0002 - Audio - SFX_Win_Coins 2		7315
+	714178729	SFX_Win_Coins_Multiple - 0003 - 2	D:\Projekte\Studio 52\GitHubRep\gameoff21\gameoff21_WwiseProject\.cache\Mac\SFX\SFX_Win_Coins_Multiple - 0003 - 2_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Player_Get_Coins_Multiple\SFX_Win_Coins_Multiple - 0003 - 2		147982
 
