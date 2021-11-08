@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eed73a5384caa8b439cfb39c7fe55552, type: 3}
+  m_Name: E44950CB-1491-40D5-B055-717D527153DF
+  m_EditorClassIdentifier: 
+  objectName: Danger
+  id: 4174463524
+  guid: E44950CB-1491-40D5-B055-717D527153DF
+  WwiseStateGroupReference: {fileID: 11400000, guid: ef080a31b192ad94683c6ca94fe601cf, type: 2}

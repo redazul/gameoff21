@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 65dd382596670e04aa50b474fe4e37cb, type: 3}
+  m_Name: FF650BA8-FF18-46D6-83C1-6A8951162DA0
+  m_EditorClassIdentifier: 
+  objectName: Play_MusicSwitch
+  id: 3117137027
+  guid: FF650BA8-FF18-46D6-83C1-6A8951162DA0

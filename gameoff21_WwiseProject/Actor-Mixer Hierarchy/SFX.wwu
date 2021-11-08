@@ -114,6 +114,7 @@
 				</BlendContainer>
 				<BlendContainer Name="Player_Get_Coins_Multiple" ID="{F2219D3A-0EF3-47A0-B236-22AAB3B20834}" ShortID="995226287">
 					<PropertyList>
+						<Property Name="BlendBehavior" Type="int16" Value="1"/>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
 								<Value>-6</Value>
@@ -593,6 +594,9 @@
 							</ModifierList>
 						</Property>
 						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>6</Value>
+							</ValueList>
 							<ModifierList>
 								<ModifierInfo>
 									<Modifier Name="" ID="{C8603E36-611E-4767-A1C5-7FCB417C0DFA}">
@@ -645,7 +649,7 @@
 					<PropertyList>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
-								<Value>2</Value>
+								<Value>4</Value>
 							</ValueList>
 						</Property>
 					</PropertyList>
