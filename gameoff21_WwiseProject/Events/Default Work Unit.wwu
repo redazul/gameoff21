@@ -113,6 +113,17 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_GrassTile_Atmo" ID="{D95DD2D6-3D2C-4AD0-B09B-471C1BB826AE}">
+					<ChildrenList>
+						<Action Name="" ID="{BE6C8AD4-9A75-48DD-AA39-1D424ED09BA6}" ShortID="762726629">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="GrassTile_Atmo" ID="{B3F2DCE6-6BD6-4FF5-847B-404CF6838FCA}" WorkUnitID="{8E49E8B6-2D0F-4775-B7B6-C954B14B41A7}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

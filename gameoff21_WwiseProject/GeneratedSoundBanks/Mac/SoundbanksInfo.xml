@@ -16,7 +16,7 @@
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="2782712965" Language="SFX" Hash="3023700019">
+		<SoundBank Id="2782712965" Language="SFX" Hash="810457309">
 			<ObjectPath>\SoundBanks\Default Work Unit\Level</ObjectPath>
 			<ShortName>Level</ShortName>
 			<Path>Level.bnk</Path>
@@ -66,6 +66,22 @@
 						<File Id="153155036" Language="SFX">
 							<ShortName>EnemyDeath - 0023 - 4.wav</ShortName>
 							<Path>SFX\EnemyDeath - 0023 - 4_3F75BDB9.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3557855016" Name="Play_GrassTile_Atmo" ObjectPath="\Events\Default Work Unit\Play_GrassTile_Atmo" DurationType="OneShot" DurationMin="170.000000" DurationMax="170.000000">
+					<IncludedMemoryFiles>
+						<File Id="83587037" Language="SFX">
+							<ShortName>123 - 0003 - Audio - AT_WInd_3.wav</ShortName>
+							<Path>SFX\123 - 0003 - Audio - AT_WInd_3_3F75BDB9.wem</Path>
+						</File>
+						<File Id="767273517" Language="SFX">
+							<ShortName>123 - 0002 - Audio - AT_Wind_2.wav</ShortName>
+							<Path>SFX\123 - 0002 - Audio - AT_Wind_2_3F75BDB9.wem</Path>
+						</File>
+						<File Id="838056310" Language="SFX">
+							<ShortName>123 - 0001 - Audio - AT_Wind_1.wav</ShortName>
+							<Path>SFX\123 - 0001 - Audio - AT_Wind_1_3F75BDB9.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>

@@ -12,6 +12,7 @@
 						<ObjectRef Name="Play_MusicSwitch" ID="{FF650BA8-FF18-46D6-83C1-6A8951162DA0}" WorkUnitID="{8BF567C2-8070-4C01-B482-5729AA7B9CE0}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Player_Get_Coins_Multiple" ID="{79BD19D4-0C6D-474F-B0BC-51B8A09A31E8}" WorkUnitID="{8BF567C2-8070-4C01-B482-5729AA7B9CE0}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Enemy_Attack" ID="{F6E557A1-DD8C-48FD-B2EF-EBE5D5C8A751}" WorkUnitID="{8BF567C2-8070-4C01-B482-5729AA7B9CE0}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_GrassTile_Atmo" ID="{D95DD2D6-3D2C-4AD0-B09B-471C1BB826AE}" WorkUnitID="{8BF567C2-8070-4C01-B482-5729AA7B9CE0}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Spend_Coin" ID="{AD1B8830-2C60-4B0D-AD24-F9044695CB49}" WorkUnitID="{8BF567C2-8070-4C01-B482-5729AA7B9CE0}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Enemy_Death" ID="{369D3524-FB1F-4F85-8B03-1EDEBD1E6588}" WorkUnitID="{8BF567C2-8070-4C01-B482-5729AA7B9CE0}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>

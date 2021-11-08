@@ -15,6 +15,7 @@ namespace AK
     {
         static const AkUniqueID PLAY_ENEMY_ATTACK = 2257393085U;
         static const AkUniqueID PLAY_ENEMY_DEATH = 3046156865U;
+        static const AkUniqueID PLAY_GRASSTILE_ATMO = 3557855016U;
         static const AkUniqueID PLAY_MUSICSWITCH = 3117137027U;
         static const AkUniqueID PLAY_PLAYER_DEATH = 1835085974U;
         static const AkUniqueID PLAY_PLAYER_GET_COINS_MULTIPLE = 1225214618U;
