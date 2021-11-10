@@ -280,6 +280,9 @@
 							</ActiveSourceList>
 						</Sound>
 					</ChildrenList>
+					<PositioningInfo>
+						<Panner Name="" ID="{D941E1F9-AFA5-43F5-AC10-90B33C163034}"/>
+					</PositioningInfo>
 					<ObjectLists/>
 				</RandomSequenceContainer>
 				<BlendContainer Name="Enemy_Attack" ID="{2FC17B25-BD48-4CCA-BC52-BCC115363BCD}" ShortID="971391496">
@@ -595,7 +598,7 @@
 						</Property>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
-								<Value>6</Value>
+								<Value>-1</Value>
 							</ValueList>
 							<ModifierList>
 								<ModifierInfo>

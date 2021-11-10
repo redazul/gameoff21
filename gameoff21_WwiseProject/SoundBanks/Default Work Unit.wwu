@@ -19,6 +19,14 @@
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
 				</SoundBank>
+				<SoundBank Name="TitleScreen" ID="{F0EC813F-AF63-41A2-B61F-FD6690CB999A}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Play_TitleScreenMusic" ID="{284B2904-9B20-4454-8043-42BFF176026F}" WorkUnitID="{8BF567C2-8070-4C01-B482-5729AA7B9CE0}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_UI_Click" ID="{C83CBFC0-5797-46B0-953C-3FDBAC3FCA1A}" WorkUnitID="{8BF567C2-8070-4C01-B482-5729AA7B9CE0}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
 			</ChildrenList>
 		</WorkUnit>
 	</SoundBanks>

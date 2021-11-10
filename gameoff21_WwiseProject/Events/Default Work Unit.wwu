@@ -124,6 +124,17 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_TitleScreenMusic" ID="{284B2904-9B20-4454-8043-42BFF176026F}">
+					<ChildrenList>
+						<Action Name="" ID="{800B16DD-0512-4278-AE56-1C4E219B6154}" ShortID="978694935">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="TitleScreenMusic" ID="{EFDE4198-4F0D-4E64-AC62-5F5445799615}" WorkUnitID="{1EDD88D4-12EB-4DE8-AAA0-9B6708F3A331}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

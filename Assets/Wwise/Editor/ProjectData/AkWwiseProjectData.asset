@@ -168,7 +168,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: 8e6f48d8e671f04fadbe30af4d28ca49
     GuidInternal: 
-    m_lastTime: -8585652465781762064
+    m_lastTime: -8585650706643004271
     List:
     - name: Level
       guid: 989c5e4d7d5eb246909f423526f169b8
@@ -184,6 +184,20 @@ MonoBehaviour:
         ObjectType: 7
         guid: 989c5e4d7d5eb246909f423526f169b8
       Path: SoundBanks\Default Work Unit\Level
+    - name: TitleScreen
+      guid: 3f81ecf063afa241b61ffd6690cb999a
+      id: 152105657
+      PathAndIcons:
+      - ElementName: SoundBanks
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 8e6f48d8e671f04fadbe30af4d28ca49
+      - ElementName: TitleScreen
+        ObjectType: 7
+        guid: 3f81ecf063afa241b61ffd6690cb999a
+      Path: SoundBanks\Default Work Unit\TitleScreen
   EventWwu:
   - PhysicalPath: Events\Default Work Unit.wwu
     PathAndIcons:
@@ -196,7 +210,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: c267f58b7080014cb4825729aa7b9ce0
     GuidInternal: 
-    m_lastTime: -8585652465781712021
+    m_lastTime: -8585650706643174419
     List:
     - name: Play_Enemy_Attack
       guid: a157e5f68cddfd48b2efebe5d5c8a751
@@ -368,6 +382,23 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 29
       minDuration: 29
+    - name: Play_TitleScreenMusic
+      guid: 04294b28209b5444804342bff176026f
+      id: 4182175493
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: c267f58b7080014cb4825729aa7b9ce0
+      - ElementName: Play_TitleScreenMusic
+        ObjectType: 3
+        guid: 04294b28209b5444804342bff176026f
+      Path: Events\Default Work Unit\Play_TitleScreenMusic
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
     - name: Play_UI_Click
       guid: c0bf3cc89757b046953c3fdbac3fca1a
       id: 1749424733
@@ -383,8 +414,8 @@ MonoBehaviour:
         guid: c0bf3cc89757b046953c3fdbac3fca1a
       Path: Events\Default Work Unit\Play_UI_Click
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 2.757875
+      minDuration: 2.757875
   RtpcWwu:
   - PhysicalPath: Game Parameters\Default Work Unit.wwu
     PathAndIcons:
@@ -508,7 +539,7 @@ MonoBehaviour:
     m_lastTime: -8585652571724007517
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 
+  ExpandedWaapiItemIds: 01000000050000000600000017000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0
