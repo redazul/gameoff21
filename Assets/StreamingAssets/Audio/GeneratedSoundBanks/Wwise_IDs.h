@@ -23,6 +23,8 @@ namespace AK
         static const AkUniqueID PLAY_PLAYER_SHOOT_01 = 356960689U;
         static const AkUniqueID PLAY_SFX_SPEND_COIN = 450680866U;
         static const AkUniqueID PLAY_SPEND_COIN = 1546982462U;
+        static const AkUniqueID PLAY_TITLESCREENMUSIC = 4182175493U;
+        static const AkUniqueID PLAY_UI_CLICK = 1749424733U;
     } // namespace EVENTS
 
     namespace STATES
@@ -45,6 +47,7 @@ namespace AK
     {
         static const AkUniqueID INIT = 1355168291U;
         static const AkUniqueID LEVEL = 2782712965U;
+        static const AkUniqueID TITLESCREEN = 152105657U;
     } // namespace BANKS
 
     namespace BUSSES

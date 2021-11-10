@@ -1,0 +1,8 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1749424733	Play_UI_Click			\Default Work Unit\Play_UI_Click	
+	4182175493	Play_TitleScreenMusic			\Default Work Unit\Play_TitleScreenMusic	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	697586496	Music_Track_47_108_BPM	D:\Projekte\Studio 52\GitHubRep\gameoff21\gameoff21_WwiseProject\.cache\Windows\SFX\Music_Track_47_108_BPM_9EDFC787.wem		\Interactive Music Hierarchy\Default Work Unit\TitleScreenMusic\Part1\Music_Track_47_108_BPM		3394524
+	712109756	UI_Click -  - Output - Stereo Out	D:\Projekte\Studio 52\GitHubRep\gameoff21\gameoff21_WwiseProject\.cache\Windows\SFX\UI_Click -  - Output - Stereo Out_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\UI_Click\UI_Click -  - Output - Stereo Out		51893
+

@@ -11,6 +11,29 @@
 	<StreamedFiles/>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
+		<SoundBank Id="152105657" Language="SFX" Hash="1402411939">
+			<ObjectPath>\SoundBanks\Default Work Unit\TitleScreen</ObjectPath>
+			<ShortName>TitleScreen</ShortName>
+			<Path>TitleScreen.bnk</Path>
+			<IncludedEvents>
+				<Event Id="4182175493" Name="Play_TitleScreenMusic" ObjectPath="\Events\Default Work Unit\Play_TitleScreenMusic" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="697586496" Language="SFX">
+							<ShortName>Music_Track_47_108_BPM.wav</ShortName>
+							<Path>SFX\Music_Track_47_108_BPM_9EDFC787.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1749424733" Name="Play_UI_Click" ObjectPath="\Events\Default Work Unit\Play_UI_Click" DurationType="OneShot" DurationMin="2.757875" DurationMax="2.757875">
+					<IncludedMemoryFiles>
+						<File Id="712109756" Language="SFX">
+							<ShortName>UI_Click -  - Output - Stereo Out.wav</ShortName>
+							<Path>SFX\UI_Click -  - Output - Stereo Out_3F75BDB9.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+			</IncludedEvents>
+		</SoundBank>
 		<SoundBank Id="1355168291" Language="SFX" Hash="3341199817">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
@@ -19,7 +42,7 @@
 				<AuxBus Id="348963605" Name="Reverb" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Reverb"/>
 			</IncludedAuxBusses>
 		</SoundBank>
-		<SoundBank Id="2782712965" Language="SFX" Hash="415907002">
+		<SoundBank Id="2782712965" Language="SFX" Hash="1247806836">
 			<ObjectPath>\SoundBanks\Default Work Unit\Level</ObjectPath>
 			<ShortName>Level</ShortName>
 			<Path>Level.bnk</Path>
